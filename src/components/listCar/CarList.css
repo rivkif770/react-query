@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    color: #4a4a4a; 
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 2px solid #ff99cc; 
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e60073; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #cc0066;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ff99cc; 
+    border-radius: 5px;
+    background-color: #fff0f5; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff99cc; 
+    color: white; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60073; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ff99cc; 
+    border-radius: 5px;
+    background-color: #fff0f5; /* Subtle pink background for inputs */
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #e60073; /* Highlight border on focus */
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+}
